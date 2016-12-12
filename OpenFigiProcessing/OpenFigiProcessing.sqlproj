@@ -58,4 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="bloomberg_equity_fileload.sql" />
+    <Build Include="bloomberg_fileload_log.sql" />
+  </ItemGroup>
 </Project>

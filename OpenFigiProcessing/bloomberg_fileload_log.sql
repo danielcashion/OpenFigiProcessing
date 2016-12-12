@@ -1,0 +1,7 @@
+﻿CREATE TABLE bloomberg_fileload_log (
+load_id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY CLUSTERED,
+step_id INT NOT NULL,
+status_id INT NOT NULL,
+created_by VARCHAR(40) NOT NULL,
+start_datetime DATETIME2 NOT NULL DEFAULT GETDATE(),
+end_datetime DATETIME2 DEFAULT GETDATE())
